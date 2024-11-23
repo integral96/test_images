@@ -12,11 +12,11 @@ frame_10004 = {slice_10004_01, slice_10004_02, ..., slice_10004_17}
 Множество нарезок без одной фигуры:
 frame_10004_new = {slice_10004_new_01, slice_10004_new_02, ..., slice_10004_new_17}
 
-# frame_10001 ------------> frame_10002
+# frame_10001 --------> frame_10002
 #       |                        |              
 #       |                        |
 #       \/                       \/
-# frame_10003 ------------> frame_10004 <-----\\-----> frame_10004_new
+# frame_10003 --------> frame_10004 <---\\---> frame_10004_new
 
 # cd test_images
 # mkdir buld && cd build
